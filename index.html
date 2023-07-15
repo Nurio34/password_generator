@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frontend Mentor</title>
+    <link rel="shortcut icon" href="#images/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b69fb5b7db.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b69fb5b7db.js" crossorigin="anonymous"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <h1 class="special-heading">Password Generator</h1>
+        <div class="search-cont">
+            <input type="text" name="search" id="search">
+            <button type="button" class="cont-btn">
+                <i class="fa-solid fa-copy"></i>
+            </button>
+        </div>
+
+        <button type="button" id="genBtn">Generate</button>
+
+        <div class="alert-cont">
+            <p class="message">Password Cooied</p>
+            <p id="passEl">w</p>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./script/script.js" type="module"></script>
+</html>
